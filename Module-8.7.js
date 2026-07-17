@@ -36,3 +36,29 @@ if(division ==='Rajshahi'){
 }else{
     console.log('division Dhaka');
 }
+
+
+// who will do  summer Slam main event and win : 
+
+const player = 'roman';
+// const location = 'lossAngeles';
+const location = 'london ';
+const comeFirst = 'sheth';
+const bloodLine =true;
+
+if( location ==='lossAngeles'){
+     if(comeFirst ==='sheth'){
+        console.log('Sheth rolenes er them song valo hobe ');
+
+        if( bloodLine){
+            console.log('roman win the title');
+        }else{
+            console.log('sheth er chance ache kichu Ta ');
+        }
+
+     }else{
+        console.log('otc them song best hobe');
+     }
+}else {
+    console.log('this match will one of the best match in summer slam ');
+}

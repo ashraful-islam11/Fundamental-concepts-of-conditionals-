@@ -40,3 +40,29 @@ console.log(age);
 
 
 
+
+const worldCupTicket = 1000;
+const worldCupDiscount = 30;
+const spanScore =2;
+const firstTeam = 'span';
+
+
+if( firstTeam === 'span'){
+    console.log('span is first team of 2026 world cup of final team');
+     if(spanScore === 2){
+        console.log('lamin yamal is win the world cup toffy 🏆');
+     }
+     else{console.log('lionel messi 😢');}
+}
+else{
+    console.log('Argentina is first finalist team of 2026 world cup ');
+}
+
+
+// ternary operator: 
+
+let worldCupToffy = (firstTeam === 'span') ?  "Span is the fist finalist team of 2026 world cup ✅ ":"Argentina is first first finalist team of 2026 world cup  ";
+
+console.log(worldCupToffy);
+
+

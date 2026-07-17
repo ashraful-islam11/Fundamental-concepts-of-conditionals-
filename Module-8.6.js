@@ -19,3 +19,23 @@ else if( totalAmount> 2000){
     console.log('no discount, you will payment fully', totalAmount, 'taka');
 }
 
+
+
+// multi level if else : 
+
+const marks = 100; 
+
+if( marks >= 80 && marks <= 100 ){
+    console.log('A+');
+}
+else if(marks >= 70 &&  marks < 80 ){
+        console.log('A-');
+}
+else if (marks <= 69 && marks >= 50){
+     console.log('B');
+}
+else{
+  console.log('First');
+}
+
+
